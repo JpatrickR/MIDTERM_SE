@@ -45,3 +45,20 @@ def try_again():
         try_again()
 
 def welcome():
+     print('Welcome to Guessing Game')
+    difficulty = input("Choose your difficuly between Easy, Medium and Hard")
+    if difficulty.upper() == "EASY":
+        easy()
+        try_again()
+    elif difficulty.upper() == "MEDIUM":
+        medium()
+        try_again()
+    elif difficulty.upper() == "HARD":
+        hard()
+        try_again()
+    else:
+        print('Wrong input')
+        welcome()
+        
+
+welcome()
