@@ -23,13 +23,13 @@ def guess_game(limit, number):
         print(f'The random number was {random_number}')
 
 def easy():
-
-
+    
+    
 def medium():
-
+    
 
 def hard():
-
+   
 
 def try_again():
 
